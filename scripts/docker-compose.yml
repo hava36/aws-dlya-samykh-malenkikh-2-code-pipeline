@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  crud-app: 
+    image: 528420014452.dkr.ecr.eu-central-1.amazonaws.com/crud-app:latest
+    ports:
+      - "8080:8080"
+    container_name: crud-app
